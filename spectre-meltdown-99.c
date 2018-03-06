@@ -1,6 +1,6 @@
 /*
  * Spectre-Based Meltdown Attack for Linux 3.13 (99 Lines)
- * by Andriy Berestovskyy <aber@semihalf.com>
+ * by Andriy Berestovskyy <berestovskyy@gmail.com>
  * Based on "Spectre Attack" by Paul Kocher et al
  */
 #include <fcntl.h>
