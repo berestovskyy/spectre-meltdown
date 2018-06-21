@@ -1,6 +1,7 @@
 /*
  * Spectre-Based Meltdown Attack for Linux 3.13 (99 Lines)
  * by Andriy Berestovskyy <berestovskyy@gmail.com>
+ * See: https://www.slideshare.net/AndriyBerestovskyy/the-spectre-of-meltdowns
  * Based on "Spectre Attack" by Paul Kocher et al
  */
 #include <fcntl.h>
@@ -11,7 +12,6 @@
 #include <x86intrin.h>
 
 #define ENABLE_MELTDOWN       /* comment this out to disable Meltdown */
-
 #define MIN_READS       100   /* minimum reads before analyse the results */
 #define MAX_READ_CYCLES 1000  /* drop too long reads */
 #define BRANCH_TRAINS   6     /* train branch predictor 6 times */

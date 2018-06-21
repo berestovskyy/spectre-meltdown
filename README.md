@@ -2,6 +2,10 @@ Spectre-Based Meltdown Attack
 =============================
 Create a tiny Meltdown proof of concept (PoC) based on Spectre attack technique.
 
+For the detailed explanation what is Spectre, Meltdown and how the attack works,
+please see 'The Spectre of Meltdowns' presentation on SlideShare:<br/>
+https://www.slideshare.net/AndriyBerestovskyy/the-spectre-of-meltdowns
+
 
 Expectations
 ------------
@@ -230,3 +234,6 @@ To run Spectre proof of concept, pass `0` as a command line argument:
 Conclusions
 -----------
 The tiny (99 lines) proof of concept was created and successfully tested on few Linux kernel versions. So indeed, the Spectre attack technique could be successfully used for Meltdown attack.
+
+'The Spectre of Meltdowns' presentation on SlideShare:<br/>
+https://www.slideshare.net/AndriyBerestovskyy/the-spectre-of-meltdowns
